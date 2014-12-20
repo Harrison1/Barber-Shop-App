@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7926E0C91A046D2A00D2F5D6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7926E0C81A046D2A00D2F5D6 /* MessageUI.framework */; };
+		7926E0CB1A04876A00D2F5D6 /* BarbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7926E0CA1A04876A00D2F5D6 /* BarbersViewController.swift */; };
+		792B90391A03378D0015A727 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B90381A03378D0015A727 /* TwitterViewController.swift */; };
+		792B903B1A03DC580015A727 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B903A1A03DC580015A727 /* ContactViewController.swift */; };
+		79494BD11A02A0B700D0DE5B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79494BD01A02A0B700D0DE5B /* LocationViewController.swift */; };
 		7966C43E19FD945C00F34E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966C43D19FD945C00F34E25 /* AppDelegate.swift */; };
 		7966C44019FD945C00F34E25 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966C43F19FD945C00F34E25 /* FirstViewController.swift */; };
 		7966C44219FD945C00F34E25 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966C44119FD945C00F34E25 /* SecondViewController.swift */; };
@@ -14,6 +19,8 @@
 		7966C44719FD945C00F34E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7966C44619FD945C00F34E25 /* Images.xcassets */; };
 		7966C44A19FD945C00F34E25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7966C44819FD945C00F34E25 /* LaunchScreen.xib */; };
 		7966C45619FD945C00F34E25 /* iCutzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966C45519FD945C00F34E25 /* iCutzTests.swift */; };
+		79B984BD1A01CF2E005F31D7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B984BC1A01CF2E005F31D7 /* ThirdViewController.swift */; };
+		79B984BF1A01D789005F31D7 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B984BE1A01D789005F31D7 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7926E0C81A046D2A00D2F5D6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7926E0CA1A04876A00D2F5D6 /* BarbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarbersViewController.swift; sourceTree = "<group>"; };
+		792B90381A03378D0015A727 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		792B903A1A03DC580015A727 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		79494BD01A02A0B700D0DE5B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		7966C43819FD945C00F34E25 /* iCutz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCutz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7966C43C19FD945C00F34E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7966C43D19FD945C00F34E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +50,8 @@
 		7966C44F19FD945C00F34E25 /* iCutzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCutzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7966C45419FD945C00F34E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7966C45519FD945C00F34E25 /* iCutzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCutzTests.swift; sourceTree = "<group>"; };
+		79B984BC1A01CF2E005F31D7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		79B984BE1A01D789005F31D7 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7926E0C91A046D2A00D2F5D6 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 		7966C42F19FD945C00F34E25 = {
 			isa = PBXGroup;
 			children = (
+				7926E0C81A046D2A00D2F5D6 /* MessageUI.framework */,
 				7966C43A19FD945C00F34E25 /* iCutz */,
 				7966C45219FD945C00F34E25 /* iCutzTests */,
 				7966C43919FD945C00F34E25 /* Products */,
@@ -82,6 +98,12 @@
 				7966C43D19FD945C00F34E25 /* AppDelegate.swift */,
 				7966C43F19FD945C00F34E25 /* FirstViewController.swift */,
 				7966C44119FD945C00F34E25 /* SecondViewController.swift */,
+				79B984BC1A01CF2E005F31D7 /* ThirdViewController.swift */,
+				79B984BE1A01D789005F31D7 /* FourthViewController.swift */,
+				79494BD01A02A0B700D0DE5B /* LocationViewController.swift */,
+				792B90381A03378D0015A727 /* TwitterViewController.swift */,
+				792B903A1A03DC580015A727 /* ContactViewController.swift */,
+				7926E0CA1A04876A00D2F5D6 /* BarbersViewController.swift */,
 				7966C44319FD945C00F34E25 /* Main.storyboard */,
 				7966C44619FD945C00F34E25 /* Images.xcassets */,
 				7966C44819FD945C00F34E25 /* LaunchScreen.xib */,
@@ -164,6 +186,7 @@
 				TargetAttributes = {
 					7966C43719FD945C00F34E25 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = ZZ7K3TQJL6;
 					};
 					7966C44E19FD945C00F34E25 = {
 						CreatedOnToolsVersion = 6.1;
@@ -216,8 +239,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7966C44219FD945C00F34E25 /* SecondViewController.swift in Sources */,
+				792B903B1A03DC580015A727 /* ContactViewController.swift in Sources */,
 				7966C43E19FD945C00F34E25 /* AppDelegate.swift in Sources */,
+				79B984BD1A01CF2E005F31D7 /* ThirdViewController.swift in Sources */,
+				79494BD11A02A0B700D0DE5B /* LocationViewController.swift in Sources */,
 				7966C44019FD945C00F34E25 /* FirstViewController.swift in Sources */,
+				7926E0CB1A04876A00D2F5D6 /* BarbersViewController.swift in Sources */,
+				79B984BF1A01D789005F31D7 /* FourthViewController.swift in Sources */,
+				792B90391A03378D0015A727 /* TwitterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +305,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harrison McGuire (3784FZKNKF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harrison McGuire (3784FZKNKF)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -318,7 +348,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Harrison McGuire (ZZ7K3TQJL6)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Harrison McGuire (ZZ7K3TQJL6)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -340,9 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCutz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +384,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Harrison McGuire (ZZ7K3TQJL6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCutz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -409,6 +447,7 @@
 				7966C45B19FD945C00F34E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7966C45C19FD945C00F34E25 /* Build configuration list for PBXNativeTarget "iCutzTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +456,7 @@
 				7966C45E19FD945C00F34E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
