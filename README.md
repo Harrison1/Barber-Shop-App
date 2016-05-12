@@ -1,7 +1,7 @@
 Barber-Shop-App
 ===============
 
-iOS app using Swift. A simple barber shop app with a tab bar, scroll views, and URL page links.
+iOS app using Swift. A simple barber shop app with a tab bar, scroll views, and URL page links, based off iOS7
 
 ![Alt text](/screenshots/screen1.png?raw=true)
 
